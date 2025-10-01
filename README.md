@@ -75,4 +75,41 @@ Your backend application with views should now deploy successfully to Vercel wit
 ---
 
 💡 **Note**: Both `vercel.json` and `index.html` must be in your project's root directory for this solution to work properly.
-        
+
+
+        🚀 Tailwind CSS + React + Vite Setup (2025 Official)
+🛠️ Step 1: Create your app
+npm create vite@latest my-app -- --template react
+cd my-app
+npm install
+
+
+🎨 Step 2: Install Tailwind + Vite plugin
+npm install tailwindcss @tailwindcss/vite
+
+
+⚙️ Step 3: Update vite.config.js
+import tailwindcss from '@tailwindcss/vite'
+
+export default {
+  plugins: [react(), tailwindcss()],
+}
+
+
+📦 Step 4: Add Tailwind to your CSS
+In src/index.css, add:
+@import "tailwindcss";
+
+
+▶️ Step 5: Run your app
+npm run dev
+
+
+
+✅ No need for tailwind.config.js unless customizing
+🧼 No PostCSS setup needed
+🧠 This is the latest official method (Tailwind v4+)
+
+
+
+
