@@ -111,5 +111,8 @@ npm run dev
 🧠 This is the latest official method (Tailwind v4+)
 
 
+<img width="746" height="563" alt="image" src="https://github.com/user-attachments/assets/b2d19174-4dcb-41df-b0c8-1729c95aacff" />
+<img width="736" height="1046" alt="image" src="https://github.com/user-attachments/assets/e6af2143-6bdd-4b82-bd3a-e6a7d4a3987b" />
+
 
 
